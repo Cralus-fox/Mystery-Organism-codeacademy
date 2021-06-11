@@ -37,7 +37,7 @@ const pAequorFactory = (specimineNum, dna) => {
 			dna[dnaLoc] = randBase;
 		}
 		else{
-			console.log('ping');
+			
 			this.mutate();
 		}
 		},
